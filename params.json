@@ -1,0 +1,6 @@
+{
+  "name": "Dpalme24.GitHub.io",
+  "tagline": "",
+  "body": "Shit bout to get lit\r\n<HTML>\r\n<head>\r\n<title>Time Dilation Calculator</title>\r\n</head>\r\n<body>\r\n<script>\r\nvar tfr;\r\nvar speed;\r\nvar c2 = 90000000000;\r\n\r\nfunction GetRelative(speed){\r\nvar speed2 = speed*speed;\r\nvar GRstep1 = speed2/c2;\r\nvar GRstep2 = 1-step1;\r\nvar GRstep3 = Math.sqrt(step2);\r\nvar GRR = (tfr/step3)-1;\r\nconsole.log(GRR);\r\nconfirm(GRR);\r\n}\r\n\r\nfunction GetSpeed(tfr){\r\nvar GSRelative = prompt(\"Relative Time in seconds\");\r\nvar tfr2 = tfr*tfr;\r\nvar GSR2 = GSRelative*GSRelative;\r\nvar GSstep1 = tfr2/GSR2;\r\nvar GSstep2 = (GSstep1*c2)+1;\r\nvar GSR = Math.sqrt(GSstep2);\r\nconsole.log(GSR);\r\nconfirm(GSR);\r\n}\r\n\r\nfunction GetFrame(speed){\r\nspeed2 = speed*speed;\r\nvar GFRelative = prompt(\"Relative Speed in km/s\");\r\nvar GFstep1 = speed2/c2;\r\nvar GFstep2 = 1-GFstep1;\r\nvar GFstep3 = Math.sqrt(GFstep2);\r\nvar GFR = GFstep3*GFRelative;\r\nconsole.log(GFR);\r\nconfirm(GFR);\r\n}\r\n\r\n</script>\r\n</body>\r\n</HTML>",
+  "note": "Don't delete this file! It's used internally to help with page regeneration."
+}
